@@ -192,8 +192,8 @@ const startLogoutTimer = function () {
     time--;
     //when 0 sec, stop timer and logout tinmer
   };
-  //set time to 5 sec
-  let time = 30;
+  //set time to 3 minutes
+  let time = 180; //180 sec
   tick();
   //call timer every sec
   const timer = setInterval(tick, 1000);
